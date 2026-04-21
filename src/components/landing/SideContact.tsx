@@ -13,18 +13,18 @@ const SideContact = () => {
       >
         <X className="h-3 w-3" />
       </button>
-      <div className="h-14 w-14 rounded-full bg-gradient-blue flex items-center justify-center text-primary-foreground">
+      <div className="h-14 w-14 rounded-full bg-gradient-blue flex items-center justify-center text-primary-foreground shadow-glow ring-2 ring-white/40">
         <MessageCircle className="h-7 w-7" />
       </div>
-      <p className="text-sm font-bold">在线咨询</p>
+      <p className="text-sm font-bold">商务咨询</p>
       <div className="w-full text-xs text-center space-y-1">
         <p className="text-muted-foreground">联系方式：</p>
         <p className="text-accent font-semibold">官方渠道获取</p>
       </div>
       <div className="w-full pt-2 border-t space-y-1.5">
-        <a href="#" className="block text-xs text-center text-primary hover:underline">官方导航</a>
-        <a href="#" className="block text-xs text-center text-primary hover:underline">彩票论坛</a>
-        <a href="#" className="block text-xs text-center text-primary hover:underline">注册 / 登录</a>
+        <a href="#" className="block text-xs text-center text-primary hover:underline">品牌导航</a>
+        <a href="#" className="block text-xs text-center text-primary hover:underline">行业资讯</a>
+        <a href="#" className="block text-xs text-center text-primary hover:underline">入驻 / 登录</a>
       </div>
       <div className="flex gap-2 pt-2">
         <Bell className="h-4 w-4 text-accent" />
